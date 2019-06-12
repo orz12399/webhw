@@ -1,0 +1,74 @@
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height:100px;
+    width:100%;
+    display: flex;
+  } 
+
+.flex_container{
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 100px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.flex_container .left-navbar table tr td{
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.flex_container .right-navbar{
+  justify-items:flex-end;
+}
+.flex_container  .right-navbar table tr td{
+  justify-items:flex-end;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.section2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2-left{
+    margin-right: 150px;
+}
+
+.banner {
+    width:40%;
+    height:20%;
+}
+.section3 tr td{
+  padding-right: 30px;
+
+}
+.section4 tr td{
+  padding: 30px;
+
+}
+
+.foot{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height:100px;
+  display: flex;
+  align-items: center;
+justify-content: flex-end;
+}
+.icon{
+height: 65%;
+margin-right: 40px;
+}
